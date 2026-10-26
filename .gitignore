@@ -1,0 +1,25 @@
+# dependências e build
+node_modules
+dist
+*.tsbuildinfo
+
+# cliente Prisma gerado (rode `npx prisma generate`)
+src/generated
+
+# variáveis de ambiente (senha do banco)
+.env
+.env.*
+
+# logs
+*.log
+dev.err
+npm-debug.log*
+
+# cobertura de testes
+coverage
+
+# editor e sistema
+.vscode
+.idea
+.DS_Store
+Thumbs.db
